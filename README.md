@@ -34,6 +34,10 @@ The output grant signal corresponds directly to the current state:
 - S_3: grant = 4'b1000 (grant to requester 3)
 - IDLE: grant = 4'b0000 (no grants)
 
+  ### RTL Diagram
+  ![image](https://github.com/user-attachments/assets/5592bb57-1a53-4c4b-a3ba-0676e65f75b0)
+
+
 ## Testbench
 The repository includes a comprehensive testbench (`test3_tb`) that verifies the arbiter's behavior across all possible request combinations:
 
